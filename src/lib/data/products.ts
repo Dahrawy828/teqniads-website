@@ -2,51 +2,27 @@ import type { Product } from "@/types";
 
 export const PRODUCTS: Product[] = [
   {
-    id: "product-1",
+    id: "furniche",
     name: "Furniche",
     description:
-      "Streamlines operations for modern teams with AI-powered automation.",
+      "An AI-powered platform for furniture businesses to manage catalogs, sales, and operations in one place.",
     status: "coming-soon",
-    url: "https://furniche.teqnia.com",
+    url: "https://furniche.teqniads.com",
   },
   {
-    id: "product-2",
-    name: "DataLens",
+    id: "leadflow-ai",
+    name: "LeadFlow AI",
     description:
-      "A unified analytics platform that turns raw data into actionable insights.",
-    status: "live",
-    url: "https://datalens.teqnia.com",
-  },
-  {
-    id: "product-3",
-    name: "TeamBridge",
-    description:
-      "Enterprise-grade communication tools built for distributed teams.",
-    status: "beta",
-    url: "https://teambridge.teqnia.com",
-  },
-  {
-    id: "product-4",
-    name: "SecureVault",
-    description:
-      "Zero-trust access management and credential security for SaaS stacks.",
-    status: "beta",
-    url: "https://securevault.teqnia.com",
-  },
-  {
-    id: "product-5",
-    name: "ScaleIQ",
-    description:
-      "Predictive growth modeling to help startups plan and scale confidently.",
+      "AI-driven lead generation and qualification platform that finds, scores, and enriches high-quality prospects automatically.",
     status: "coming-soon",
-    url: "",
+    url: "https://leadflow.teqniads.com",
   },
   {
-    id: "product-6",
-    name: "ClientHub",
+    id: "peopleops-ai",
+    name: "PeopleOps AI",
     description:
-      "A customer portal layer that unifies support, billing, and onboarding.",
+      "A smart HR platform that automates hiring, onboarding, and employee management using AI insights.",
     status: "coming-soon",
-    url: "",
+    url: "https://peopleops.teqniads.com",
   },
 ];

@@ -5,21 +5,21 @@ import Container from "@/components/ui/Container";
 
 const FEATURED_PRODUCTS = [
   {
-    name: "Product One",
-    description:
-      "Streamlines operations for modern teams with AI-powered automation.",
-    status: "live" as const,
-  },
-  {
-    name: "Product Two",
-    description:
-      "A unified analytics platform that turns raw data into actionable insights.",
-    status: "beta" as const,
-  },
-  {
     name: "Furniche",
     description:
-      "Enterprise-grade communication tools built for distributed teams.",
+      "An AI-powered platform for furniture businesses to manage catalogs, sales, and operations in one place.",
+    status: "coming-soon" as const,
+  },
+  {
+    name: "LeadFlow AI",
+    description:
+      "AI-driven lead generation and qualification platform that finds, scores, and enriches high-quality prospects automatically.",
+    status: "coming-soon" as const,
+  },
+  {
+    name: "PeopleOps AI",
+    description:
+      "A smart HR platform that automates hiring, onboarding, and employee management using AI insights.",
     status: "coming-soon" as const,
   },
 ];
